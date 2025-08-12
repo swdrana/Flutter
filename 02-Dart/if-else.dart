@@ -10,12 +10,12 @@ void main() {
   ); // true; result = numbers.any((element) => element >= 10); // false;
 
   var number = 7;
-  numbers.map((e) => {
-    print(e)
-    // if (e == number) {
-    //   print(e),
-    // }
+  numbers.forEach((e){
+    print(e);
+    if(e==number){
+      print('yes');
+    }
   });
 
-  // print(result);
+  print(result);
 }
