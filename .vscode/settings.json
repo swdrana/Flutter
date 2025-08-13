@@ -1,0 +1,26 @@
+{
+  "commentChameleon.customTags": [
+    {
+      "tag": "EXPLAIN",
+      "color": "#ffffff",
+      "backgroundColor": "#66ff0080",
+      "strikethrough": false,
+      "underline": false,
+      "bold": false,
+      "italic": false,
+      "emoji": "🤯",
+      "useEmoji": true
+    },
+    {
+      "tag": "SECTION:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#3f78fdc4",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false,
+      "emoji": "✨",
+      "useEmoji": true
+    }
+  ]
+}
