@@ -15,6 +15,19 @@ class Class2 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
+              onPressed: () => {Navigator.of(context).pop()},
+
+              child: SizedBox(
+                width: 60,
+                child: Row(children: [Icon(Icons.arrow_back), Text('Back')]),
+              ),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.teal,
+                foregroundColor: Colors.white,
+              ),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
               onPressed: () {
                 print('BTN Clicked');
               },
