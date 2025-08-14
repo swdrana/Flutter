@@ -18,17 +18,17 @@ class Class2 extends StatelessWidget {
               onPressed: () {
                 print('BTN Clicked');
               },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
               child: Text(
                 'MyBTN',
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                ),
-              ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.green,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
                 ),
               ),
             ),
@@ -39,17 +39,17 @@ class Class2 extends StatelessWidget {
                 onPressed: () {
                   print('BTN Clicked');
                 },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.green,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
                 child: Text(
                   'MyBTN',
                   style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                  ),
-                ),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
                   ),
                 ),
               ),
@@ -77,7 +77,7 @@ class Class2 extends StatelessWidget {
           ],
         ),
       ),
-      drawer: Column(
+      endDrawer: Column(
         children: [
           ElevatedButton(
             onPressed: () => {print('btn click')},
